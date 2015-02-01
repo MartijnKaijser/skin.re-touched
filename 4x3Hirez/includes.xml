@@ -481,7 +481,7 @@
 					<onclick condition="!Container.CanFilterAdvanced">SendClick(19)</onclick>
 					<onclick condition="Container.CanFilterAdvanced">Filter</onclick>
 					<icon>icon_filter.png</icon>
-					<visible>!Container.Filtered + ![Window.IsVisible(TVRecordings) | Window.IsVisible(RadioRecordings) | Window.IsVisible(TVTimers) | Window.IsVisible(RadioTimers) | Window.IsVisible(TVSearch) | Window.IsVisible(RadioSearch)]</visible>
+					<visible>!Container.Filtered + ![Window.IsVisible(TVChannels) | Window.IsVisible(RadioChannels) | Window.IsVisible(TVRecordings) | Window.IsVisible(RadioRecordings) | Window.IsVisible(TVTimers) | Window.IsVisible(RadioTimers) | Window.IsVisible(TVSearch) | Window.IsVisible(RadioSearch)]</visible>
 				</item>
 				<item>
 					<label>587</label>
