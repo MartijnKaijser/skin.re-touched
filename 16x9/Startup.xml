@@ -3,6 +3,8 @@
 	<defaultcontrol always="true">10</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
 	<controls>
+		<include condition="StringCompare(Skin.AspectRatio,16:9)">16x9</include>
+		<include condition="StringCompare(Skin.AspectRatio,4:3)">4x3</include>
 		<include>CommonBackground</include>
 		<include>CommonBackgroundOverlay</include>
 		<include>CommonNowPlaying</include>

@@ -1,3 +1,6 @@
+v5.0.0
+- drop the 4x3Hirez folder
+
 v4.0.0
 - Updates for Isengard
 
