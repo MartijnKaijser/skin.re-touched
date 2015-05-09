@@ -5,6 +5,10 @@
 	<animation effect="fade" start="0" end="100" time="200">WindowOpen</animation>
 	<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
 	<controls>
+		<!-- workaround to include needed files when ReloadSkin() is called -->
+		<include condition="StringCompare(Skin.AspectRatio,16:9)">16x9</include>
+		<include condition="StringCompare(Skin.AspectRatio,4:3)">4x3</include>
+
 		<control type="group">
 			<posx>580r</posx>
 			<posy>0</posy>
