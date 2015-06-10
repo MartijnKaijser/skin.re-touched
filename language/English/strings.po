@@ -62,7 +62,7 @@ msgid "Music - Files"
 msgstr ""
 
 msgctxt "#31013"
-msgid "Recent Movies"
+msgid "Recent Films"
 msgstr ""
 
 msgctxt "#31014"
